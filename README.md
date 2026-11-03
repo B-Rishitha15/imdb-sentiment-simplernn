@@ -63,3 +63,4 @@ Python 3.11 with TensorFlow 2.15 is recommended.
 - Use pretrained embeddings (GloVe) or a transformer model.
 
 ## Tech stack
+Python, TensorFlow/Keras, Streamlit
