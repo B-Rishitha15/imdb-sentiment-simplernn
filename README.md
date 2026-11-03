@@ -4,7 +4,7 @@ A Streamlit web app that classifies a movie review as **Positive** or **Negative
 
 ## Demo
 
-Live app: _add your Streamlit Community Cloud link here_
+Live app:https://imdb-sentiment-simplernn-7pabjbrfsmt9cfrsh4smzy.streamlit.app
 
 ## Model
 
