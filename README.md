@@ -51,8 +51,8 @@ Python 3.11 with TensorFlow 2.15 is recommended.
 
 ## Known limitations
 
-- **Accuracy is limited.** A SimpleRNN reaches roughly 78-83% on IMDB (results vary between training runs). LSTM/GRU models reach 85-88%.
-- **Negation is a weak spot.** Reviews like "the movie was scary, i did not like it" can be classified wrongly (the score stays close to 0.5), because SimpleRNN struggles to carry information across a sequence.
+- **Accuracy is limited.** A SimpleRNN reaches roughly 78-83% on IMDB (results vary between training runs). LSTM/GRU models typically reach 85-88%.
+- **Negation is a weak spot.** Reviews like "the movie was scary, i did not like it" can be classified wrongly (the score stays close to 0.5), likely because SimpleRNN struggles to carry information across a long sequence.
 - **Short inputs are less reliable.** The model was trained on full-length reviews (about 230 words on average). Very short reviews give less confident scores.
 - Scores close to 0.5 mean the model is uncertain.
 
